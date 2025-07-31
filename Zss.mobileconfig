@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- Configuración de rendimiento -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.system.management</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.optimization.performance</string>
+            <key>PayloadUUID</key>
+            <string>E3E3E3E3-E3E3-E3E3-E3E3-E3E3E3E3E3E3</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Optimización de Rendimiento</string>
+            <key>ReduceMotionEnabled</key>
+            <true/>
+            <key>ReduceTransparencyEnabled</key>
+            <true/>
+            <key>BackgroundAppRefreshEnabled</key>
+            <false/>
+        </dict>
+        
+        <!-- Configuración de batería -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.system.management</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.optimization.battery</string>
+            <key>PayloadUUID</key>
+            <string>F4F4F4F4-F4F4-F4F4-F4F4-F4F4F4F4F4F4</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadDisplayName</key>
+            <string>Optimización de Batería</string>
+            <key>LowPowerModeEnabled</key>
+            <true/>
+            <key>AutoUpdateEnabled</key>
+            <false/>
+            <key>AutomaticAppUpdatesEnabled</key>
+            <false/>
+            <key>AutomaticDownloadEnabled</key>
+            <false/>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Optimización iPhone</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.optimization.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1A1A1A1-A1A1-A1A1-A1A1-A1A1A1A1A1A1</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
